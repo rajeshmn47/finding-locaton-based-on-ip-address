@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 2rem;
+padding: 1rem;
+background-color: rgb(0, 21, 41);
+padding-top: 2rem;
+color: white;
+}
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con2{
+    display: flex;
+    justify-content: space-around;
+}
+.con3{
+    display: flex;
+    justify-content: space-around;
+}
